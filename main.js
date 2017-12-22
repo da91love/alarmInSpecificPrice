@@ -50,8 +50,9 @@ function coinPrice(coinName){
 				priceArr[0] = price;
 			}
 		})
-		},30000);
+		},20000);
 }
 
 coinPrice('モナーコイン');
 coinPrice('リップル');
+coinPrice('ビットコイン');
